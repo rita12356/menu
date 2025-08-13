@@ -1,0 +1,66 @@
+body {
+  margin: 0;
+  user-select: none;
+  font-family: "Arial";
+}
+
+img {
+  height: 150px;
+  object-fit: cover;
+}
+
+.food-title {
+  width: 60%;
+  
+}
+
+
+.card-active {
+  
+  outline: 4px solid lightcoral;
+}
+
+
+
+.card-not-available {
+  pointer-events: none;
+  background-color: #5c636a;
+  border-color: #5c636a;
+  opacity: 0.65;
+  user-select: none;
+  color: #fff;
+  background-color: RGBA(108,117,125,1);
+}
+
+@media (min-width: 768px) and (max-width: 1200px) {
+
+ h1{
+  font-size: 26px;
+}
+
+h2{
+  font-size: 26px;
+  margin-top: 30px;
+}
+
+.food-title {
+  width: 60%;
+  font-size: 18px;
+  
+  
+}
+}
+
+ @media (max-width: 767px) {
+
+   h1{
+  font-size: 24px;
+}
+
+h2{
+  font-size: 24px;
+  margin-top: 20px;
+}
+
+
+ }
