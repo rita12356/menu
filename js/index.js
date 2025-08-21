@@ -8,7 +8,7 @@ let titles = [
   `Медовик`,
 
 ];
-
+//  контейнер данные: цен и логические данные true, false
 let prices = [150, 300, 200, 250, 100, 150];
 let available = [false, true, true, true, true, false];
 let container = document.querySelector(`.food-container`);
