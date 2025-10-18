@@ -31,7 +31,7 @@ if(isAvailable) {
   container.innerHTML += `
   <div class="col">
   <div class="${className}">
-  <img src="assets/${i + 1}.jpeg" class="card-img-top">
+  <img src="assets/${i + 1}.jpeg" alt="Картинки c меню" class="card-img-top">
        
     <div class="card-body">
       <h5 class="card-title d-flex justify-content-between align-items-center flex-wrap">
